@@ -18,7 +18,7 @@ import {
   import { useState, useEffect} from "react";
   import Swal from 'sweetalert2';
   
-  function Register() {
+  function Register() { 
 
     const [name, setName] = useState ('');
     const [email, setEmail] = useState ('');
